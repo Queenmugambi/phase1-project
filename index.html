@@ -1,27 +1,21 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aircraft Information</title>
+    <title>Movie SPA</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Aircraft Information</h1>
-        <table id="aircraft-table">
-            <thead>
-                <tr>
-                    <th>Flight ID</th>
-                    <th>Latitude</th>
-                    <th>Longitude</th>
-                    <th>Velocity (m/s)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Aircraft data will be populated here -->
-            </tbody>
-        </table>
+        <h1>Movie Search</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search movies...">
+            <button type="submit">Search</button>
+        </form>
+        <div id="movie-list"></div>
+        <div id="pagination"></div>
     </div>
     <script src="script.js"></script>
 </body>

@@ -4,7 +4,7 @@
 #### By: Queen Mugambi
 
 ## Description
-This project is an application that checks aircraft real time information
+ Provides movie information such as titles, release dates, ratings, plot summaries, and more
 
 ## Installation                                    
 To get started with the project, follow these steps:
@@ -20,6 +20,9 @@ To get started with the project, follow these steps:
 - JavaScript
 - GitHub
 - Api
+-db.json
+
+
 
 # Live Link
 [Live Demo](https://Queen Mugambi githyb.com)
@@ -29,4 +32,4 @@ For support or inquiries, please visit [Queen Mugambi GitHub Profile](https://gi
 
 ### License
 The content of this site is licensed under the MIT license.
-Copyright © 2024 Queen Mugambi
+Copyright © 2024 Queen Mugambigit add .
